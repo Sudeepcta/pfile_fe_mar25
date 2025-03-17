@@ -40,3 +40,14 @@ STEPS TO CREATE PERSONAL ACCESS TOKEN(PAT):
 STEPS TO SYNC REMOTE REPO WITH LOCAL:
 $ git clone https://<PAT>github.com/Sudeepcta/pfile_fe_mar25
 
+STEPS TO UPADTE THE REMOTE REPO(COPY THE FILES FROM LOCAL TO REMOTE REPO):
+$ git add .
+In the above command the git will mark/stage (will make a list of) all the files that need to be updated in the remote repo(server) (. represents the current file)
+
+$ git commit -m "relevant message"
+the above command creates an object that will have the copy all the marked files (with security i.e encryption)
+
+$git push origin <branch name>
+ex: git push origin main
+the above command pushed the files to the branch main
+
