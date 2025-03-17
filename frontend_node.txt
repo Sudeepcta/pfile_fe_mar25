@@ -1,0 +1,42 @@
+BOOTSTRAP,JS AND REACT NOTES
+day1 monday 17-03-2025
+
+STEPS TO CREATE A NEW GIT REPORT:
+1 login into github
+2 on top right of the window click on "+" and select new repository
+3 give the repositrory name
+4 give the description for repository
+5 repository shold be public
+6 click the check ADD readme file
+7 click create new repository
+
+GIT COMMANDS:
+1 git status
+$ git status
+the above command is used to know the status of the repository(current repo)
+
+$ git clone https://github.com/Sudeepcta/pfile_fe_mar25
+this command copies the repo from the server(remote repo) into over computer
+
+$ git pull origin main
+this command is used to downloads the updated repo from server.main here is the default branch name
+
+$ git config --global user.name "sudeepcta"
+$ git config --global user.email "sudeecta.sudeep69@gmail.com"
+the above command is used for configuration i.e by runniong this command the github server identifies the user github account
+
+STEPS TO CREATE PERSONAL ACCESS TOKEN(PAT):
+1 on the top right corner click on the profile 
+2 go to settings
+3 In the new window scroll down and click developer setting (bottom left corner)
+4 In the new on top left click tokens and then select tokens classic 
+5 In the new window click generate new token and select new tokens classic
+6 write a note 
+7 click expire and select no expiry
+8 select the checkbox repo
+9 scroll down and click generate token 
+10 copy the PAT and email it to yourself(use the mail subject git PAT)
+
+STEPS TO SYNC REMOTE REPO WITH LOCAL:
+$ git clone https://<PAT>github.com/Sudeepcta/pfile_fe_mar25
+
